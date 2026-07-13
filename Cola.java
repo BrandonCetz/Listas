@@ -11,4 +11,4 @@ public interface Cola<E> extends Iterable<E> {
     int numElementos();
 
     void limpiar();
-}
+} 
