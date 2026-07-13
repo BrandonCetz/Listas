@@ -199,6 +199,20 @@ public class ArrayList<E> implements Lista<E> {
             
         };
     }
+	@Override
+	public int busquedaLineal(E e){
+		Object aux;
+		if(!this.esVacia()){
+			for(int i = 0; i < this.indice; i++){
+				if(this.datos[i].equals(e)){
+					return i;
+				}
+			}
+			return -1;
+		}else{
+			throw new NullPointerException();
+		}
+	}
 
 
 }
