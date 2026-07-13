@@ -68,5 +68,10 @@ public interface Lista<E> extends Iterable<E> {
 	 * @param posicion Posicion del elemento a regresar
 	 */
 	public E consultar(int posicion);
+
+	public int busquedaLineal(E e);
+	public int busquedaLinealRecursiva(E e);
+	public int busquedaBinaria(E e);
+
 	
 }
