@@ -4,7 +4,7 @@ public interface Cola<E> extends Iterable<E> {
 
     E desencolar();
 
-    E consultarCima();
+    E consultarFrente();
 
     boolean esVacia();
 
